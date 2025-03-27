@@ -1,0 +1,29 @@
+{
+  "name": "pubgm-app",
+  "version": "1.0.1",
+  "description": "This app is a automated scoring system that will help broadcast data.",
+  "homepage": "https://github.com/abinashnimz/PUBGM-APP#readme",
+  "bugs": {
+    "url": "https://github.com/abinashnimz/PUBGM-APP/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abinashnimz/PUBGM-APP.git"
+  },
+  "license": "MIT",
+  "author": "abinashnimz",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon server/app.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "ncrypt": "^1.0.7",
+    "path": "^0.12.7",
+    "sqlite3": "^5.1.7"
+  }
+}
